@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+    <header>
+        <nav class="desktop-nav">
+            <div class="logo">Uzair Sarfraz</div>
+            <div>
+                <ul class="nav-link">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="hamburger">
+            <div class="logo">Uzair Sarfraz</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-list">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Services</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img class="img" src="./Public/ProfilePic.png" alt="Profile Pic"/>
+        </div>
+        
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm </p>
+            <h1 class="title">Professor Uzair</h1>
+            <p class="section__text__p2">Front-End Developer</p>
+        
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./Public/Resume.pdf')">Discuss your Project</button>
+            <button class="btn btn-color-1" onclick="location.href='./#hire'">Hire Me</button>
+        </div>
+        <div id="socials-container">
+            <img src="./Public/linkedin.png" alt="My Linkedin Profile" class="icon" onclick="location.href='https://linkedin.com/in/uzair-sarfraz/'">
+            <img src="./Public/github.png" alt="My GitHub Profile" class="icon" onclick="location.href='https://github.com/UzairSarfraz'">
+        </div>
+        
+        
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <img src="./Public/AboutPic.png" alt="" class="section__pic-container">
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./Public/experience.png" alt="" class="icon">
+                        <h1>Experience</h1>
+                        <p>Shopify Expert<br> Frontend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./Public/education.png" alt="" class="icon">
+                        <h1>Education</h1>
+                        <p>B.Sc. Computer Science <br>META Front-end Web Developer</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="about-text"><strong>🏆 TOP-RATED CERTIFIED DEVELOPER</strong></p><p class="about-text">✅ With over 2+ years of experience in the technology world, I am a META certified web developer and a proficient Shopify expert with a focus on front-end web development. I offer a wide range of services to enhance your digital presence and create a compelling online platform for your business.</p>
+
+<p class="about-text"><strong>⭐️⭐️ Expertise in Shopify and Front-End Development ⭐️⭐️</strong></p>
+<p>
+✅ PSD to HTML & CSS and Figma to HTML & CSS<br>
+✅ Responsive HTML Email Templates<br>
+✅ Business Landing Pages and Websites<br>
+✅ ReactJS Development and MERN Stack Development<br>
+✅ Shopify Store Setup and Customization<br>
+✅ Shopify Dropshipping Store Setup and Management<br>
+✅ Shopify Payment Methods Integration<br>
+✅ Shopify Products Upload and Management<br>
+✅ Eye-catching Banners and Images for Your Store<br>
+✅ Engaging Social Media Post Designs<br>
+✅ Canva Design Services<br>
+✅ SEO (Search Engine Optimization) and Digital Marketing Expertise<br>
+</p>
+                    
+<p class="about-text">I take pride in offering a cost-effective development process driven by agile methodologies, ensuring on-time delivery and the use of a modern tech stack.</p>
+
+<p class="about-text">My front-end web development skills enable me to convert your designs from PSD or Figma into interactive and responsive HTML, making sure your website looks great on all devices.</p>
+
+<p class="about-text">Furthermore, I am well-versed in ReactJS development and MERN stack, enabling me to build dynamic and interactive web applications to elevate your online presence further.</p>
+
+<p class="about-text">As a <b>ONE-STOP SOLUTION for your DIGITAL PRESENCE</b>, I offer a comprehensive range of services, including SEO and digital marketing, to drive traffic to your Shopify store and boost your online visibility.</p>
+
+<p class="about-text">If you seek a dedicated and experienced web developer to bring your ideas to life, I am here to assist. Let's discuss your project and create a tailored solution to meet your business needs.</p>
+
+<p class="about-text">Cheers!</p>
+                </div>
+            </div>
+        </div>
+        <img src="./Public/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#hire'">
+    </section>
+    <section id="hire">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Hire ME</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./Public/fiverr.png.png" alt="" class="icon contact-icon">
+                <p><a href="https://go.fiverr.com/visit/?bta=220260&brand=fiverrcpa&landingPage=https%3A%2F%2Fwww.fiverr.com%2Fprofessoruzair%3Fup_rollout%3Dtrue">Fiverr</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./Public/upwork.png.png" alt="" class="icon contact-icon">
+                <p><a href="https://www.upwork.com/freelancers/~014ba045b08ecb7d7e">Upwork</a></p>
+            </div>
+        </div>
+        
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Services</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Public/checkmark.png" alt="" class="icon">
+                        <div>
+                            <h3>Figma to HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+                        </article>
+                        <article>
+                            <img src="./Public/checkmark.png" alt="" class="icon">
+                        <div>
+                            <h3>Email HTML Template</h3>
+                            <p>Experienced</p>
+                        </div>
+                        </article>
+                        <article>
+                            <img src="./Public/checkmark.png" alt="" class="icon">
+                        <div>
+                            <h3>Business Landing Pages</h3>
+                            <p>Experienced</p>
+                        </div>
+                        </article>
+                        <article>
+                            <img src="./Public/checkmark.png" alt="" class="icon">
+                        <div>
+                            <h3>ReactJS Developer</h3>
+                            <p>Experienced</p>
+                        </div>
+                        </article>
+                        <article>
+                            <img src="./Public/checkmark.png" alt="" class="icon">
+                        <div>
+                            <h3>MERN STACK Development</h3>
+                            <p>Experienced</p>
+                        </div>
+                        </article>
+                        <article>
+                            <img src="./Public/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>Python/Django Developer</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Wordpress/Shopify Expert</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Public/checkmark.png" alt="" class="icon">
+                        <div>
+                            <h3>Shopify Store Setup</h3>
+                            <p>Experienced</p>
+                        </div>
+                        </article>
+                        <article>
+                            <img src="./Public/checkmark.png" alt="" class="icon">
+                        <div>
+                            <h3>Shopify Dropshipping</h3>
+                            <p>Experienced</p>
+                        </div>
+                        </article>
+                        <article>
+                            <img src="./Public/checkmark.png" alt="" class="icon">
+                        <div>
+                            <h3>Wordpress Websites</h3>
+                            <p>Experienced</p>
+                        </div>
+                        </article>
+                        <article>
+                            <img src="./Public/checkmark.png" alt="" class="icon">
+                        <div>
+                            <h3>SEO Expert</h3>
+                            <p>Experienced</p>
+                        </div>
+                        </article>
+                        <article>
+                            <img src="./Public/checkmark.png" alt="" class="icon">
+                        <div>
+                            <h3>Graphic Designing/ Canva</h3>
+                            <p>Experienced</p>
+                        </div>
+                        </article>
+                        <article>
+                            <img src="./Public/checkmark.png" alt="" class="icon">
+                        <div>
+                            <h3>Social Media Post Designs</h3>
+                            <p>Experienced</p>
+                        </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./Public/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">         
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Public/To-do-list.png" alt="" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">To-Do List</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/UzairSarfraz/To-do-List'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://to-do-list-weld-nu.vercel.app/'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Public/project-2.png" alt="" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Calculator</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/UzairSarfraz/calculator'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://calculator-yr13.vercel.app/'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container"> <!-- Project 3 -->
+                    <div class="article-container">
+                        <img src="./Public/project-2.png" alt="" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Calculator</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/UzairSarfraz/calculator'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://calculator-yr13.vercel.app/'">Live Demo</button>
+                    </div>
+                </div>
+                    <div class="details-container color-container"> <!-- Project 3 -->
+                    <div class="article-container">
+                        <img src="./Public/project-2.png" alt="" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Calculator</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/UzairSarfraz/calculator'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://calculator-yr13.vercel.app/'">Live Demo</button>
+                    </div>
+                </div>
+                    <div class="details-container color-container"> <!-- Project 3 -->
+                    <div class="article-container">
+                        <img src="./Public/project-2.png" alt="" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Calculator</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/UzairSarfraz/calculator'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://calculator-yr13.vercel.app/'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Public/Temperature Converter.png" alt="" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Temperature Converter</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/UzairSarfraz/temperatre-converter'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://temperatre-converter-zsgk.vercel.app/'">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./public/arrow.png" alt="" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Hire ME</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./Public/fiverr.png.png" alt="" class="icon contact-icon">
+                <p><a href="https://go.fiverr.com/visit/?bta=220260&brand=fiverrcpa&landingPage=https%3A%2F%2Fwww.fiverr.com%2Fprofessoruzair%3Fup_rollout%3Dtrue">Fiverr</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./Public/upwork.png.png" alt="" class="icon contact-icon">
+                <p><a href="https://www.upwork.com/freelancers/~014ba045b08ecb7d7e">Upwork</a></p>
+            </div>
+        </div>
+        <h1 class="title">Contact ME</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./Public/email.png" alt="" class="icon contact-icon">
+                <p><a href="mailto:uzairsarfraz1110@gmail.com">Uzairsarfraz1110@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./Public/linkedin.png" alt="" class="icon contact-icon">
+                <p><a href="https://linkedin.com/in/uzair-sarfraz">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div>
+                <ul class="nav-link">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Uzair Sarfraz. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
